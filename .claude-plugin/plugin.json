@@ -1,0 +1,22 @@
+{
+  "name": "adlib-lyrics",
+  "version": "0.1.0",
+  "description": "Synced lyrics of what's playing in Music or Spotify, word by word, above the prompt",
+  "author": { "name": "bixxter" },
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "lyrics": {
+      "type": "string",
+      "title": "Lyrics",
+      "description": "stack: the line before, the line being sung and the next · line: only the line being sung · off: no lyrics",
+      "options": ["stack", "line", "off"],
+      "default": "stack"
+    },
+    "mascot": {
+      "type": "boolean",
+      "title": "Dancing mascot",
+      "description": "Adlib's mascot dances beside the lyrics (terminal only)",
+      "default": true
+    }
+  }
+}

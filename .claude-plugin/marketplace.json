@@ -1,0 +1,12 @@
+{
+  "name": "adlib-lyrics",
+  "owner": { "name": "bixxter" },
+  "description": "Synced lyrics in Claude Code, from the maker of Adlib",
+  "plugins": [
+    {
+      "name": "adlib-lyrics",
+      "source": "./",
+      "description": "Synced lyrics of what's playing in Music or Spotify, word by word, above the prompt, with Adlib's dancing mascot"
+    }
+  ]
+}
